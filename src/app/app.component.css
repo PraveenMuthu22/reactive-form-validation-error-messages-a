@@ -1,0 +1,21 @@
+.container {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 500px;
+  padding: 10px;
+}
+
+.error {
+  color: crimson;
+}
+
+input.ng-invalid.ng-touched {
+  background-color: pink;
+}
+
+.formError{
+  background-color: pink;
+}
